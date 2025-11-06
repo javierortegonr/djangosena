@@ -12,5 +12,5 @@ def mostrar_saludo(request):
     }
 
     # 3. RENDER: Enviar la solicitud, la plantilla y los datos
-    return render(request, 'saludos_app/templates/saludo.html', contexto)
+    return render(request, 'saludo.html', contexto)
 # Create your views here.
